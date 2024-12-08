@@ -11,6 +11,8 @@ import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
+import UserPortfolio from 'src/pages/UserPortfolio.vue'
+import StockSelector from 'src/pages/StockSelector.vue'
 
 const routes = [
   {
@@ -39,30 +41,40 @@ const routes = [
         component: TableList
       },
       {
-        path: 'typography',
-        name: 'Typography',
-        component: Typography
+        path: 'stock-selector',
+        name: 'Stock Selector',
+        component: StockSelector
       },
       {
-        path: 'icons',
-        name: 'Icons',
-        component: Icons
+        path: 'user-portfolio',
+        name: 'User Portfolio',
+        component: UserPortfolio
       },
-      {
-        path: 'maps',
-        name: 'Maps',
-        component: Maps
-      },
-      {
-        path: 'notifications',
-        name: 'Notifications',
-        component: Notifications
-      },
-      {
-        path: 'upgrade',
-        name: 'Upgrade to PRO',
-        component: Upgrade
-      }
+      // {
+      //   path: 'typography',
+      //   name: 'Typography',
+      //   component: Typography
+      // },
+      // {
+      //   path: 'icons',
+      //   name: 'Icons',
+      //   component: Icons
+      // },
+      // {
+      //   path: 'maps',
+      //   name: 'Maps',
+      //   component: Maps
+      // },
+      // {
+      //   path: 'notifications',
+      //   name: 'Notifications',
+      //   component: Notifications
+      // },
+      // {
+      //   path: 'upgrade',
+      //   name: 'Upgrade to PRO',
+      //   component: Upgrade
+      // }
     ]
   },
   { path: '*', component: NotFound }

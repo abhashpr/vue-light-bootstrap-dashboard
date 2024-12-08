@@ -82,7 +82,7 @@
     computed: {
       sidebarStyle () {
         return {
-          backgroundImage: `url(${this.backgroundImage})`
+          // backgroundImage: `url(${this.backgroundImage})`
         }
       }
     }
@@ -98,6 +98,6 @@
    flex: 1;
  }
  .sidebar .sidebar-wrapper .logo .logo__container {
-   padding-left: 10px;
+   padding-left: 5px;
  }
 </style>
